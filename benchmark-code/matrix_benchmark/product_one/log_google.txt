@@ -1,0 +1,3 @@
+LEVEL  NAME                    EXECUTION_ID  TIME_UTC                 LOG
+D      matrixmult_small_one_4  ybyao2zcwwkf  2022-11-17 09:20:30.038  Function execution took 1994 ms. Finished with status code: 200
+D      matrixmult_small_one_4  ybyao2zcwwkf  2022-11-17 09:20:28.043  Function execution started

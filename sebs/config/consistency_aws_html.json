@@ -1,0 +1,33 @@
+{
+  "experiments": {
+    "deployment": "aws",
+    "update_code": false,
+    "update_storage": false,
+    "download_results": true,
+    "runtime": {
+      "language": "python",
+      "version": "3.7"
+    },
+    "type": "perf-cost",
+    "perf-cost": {
+      "benchmark": "110.dynamic-html",
+      "experiments": ["sequential", "burst"],
+      "input-size": "test",
+      "repetitions": 50,
+      "concurrent-invocations": 50,
+      "memory-sizes": [128]
+    }
+  },
+  "deployment": {
+    "name": "gcp",
+    "aws": {
+      "region": "eu-central-1",
+      "lambda-role": ""
+    },
+    "gcp": {
+      "region": "europe-west3",
+      "project_name": "",
+      "credentials": ""
+    }
+  }
+}
